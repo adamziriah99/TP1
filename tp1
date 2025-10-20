@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Découvre les Spécialités Informatiques</title>
+</head>-
+<body>
+
+  <!-- TITRE PRINCIPAL -->
+  <h1>Découvre les Spécialités du Monde Informatique</h1>
+  <p>Explore les différents domaines de l’informatique et trouve ta voie : développement, cybersécurité, IA, réseaux, et plus encore.</p>
+
+  <!-- LISTE ORDONNÉE -->
+  <h2>1) Étapes pour choisir ta spécialité</h2>
+  <ol>
+    <li>Identifier tes centres d’intérêt (sécurité, création, analyse, etc.).</li>
+    <li>Découvrir les principales branches de l’informatique.</li>
+    <li>Comparer les compétences demandées et les débouchés.</li>
+    <li>Essayer plusieurs domaines via des projets pratiques.</li>
+    <li>Choisir la spécialité qui correspond à ta passion et ton profil.</li>
+  </ol>
+
+  <!-- LISTE NON ORDONNÉE AVEC IMAGES ET LIENS -->
+  <h2>2) Quelques spécialités informatiques populaires</h2>
+  <ul>
+    <li>
+      <a href="https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_informatique" target="_blank">Cybersécurité</a><br>
+      <img src="https://www.apixit.fr/wp-content/uploads/2022/02/APIXIT-cybersecurite-SASE-SSE.jpg" alt="Image cybersécurité" width="250">
+    </li><br>
+
+    <li>
+      <a href="https://fr.wikipedia.org/wiki/D%C3%A9veloppement_web" target="_blank">Développement Web</a><br>
+      <img src="https://www.openwork.fr/wp-content/uploads/2024/08/le-portage-salarial-developpeur-web-1.jpg" alt="Image développement web" width="250">
+    </li><br>
+
+    <li>
+      <a href="https://fr.wikipedia.org/wiki/Intelligence_artificielle" target="_blank">Intelligence Artificielle (IA)</a><br>
+      <img src="https://www.zabala.fr/wp-content/uploads/2023/11/intelligence-artificielle-et-conseil.jpg" alt="Image intelligence artificielle" width="250">
+    </li><br>
+
+    <li>
+      <a href="https://fr.wikipedia.org/wiki/Science_des_donn%C3%A9es" target="_blank">Analyse de Données (Data Science)</a><br>
+      <img src="https://schoolofdata.artefact.com/wp-content/uploads/2024/11/Data-Analytics-1.webp" alt="Image data science" width="250">
+    </li><br>
+
+    <li>
+      <a href="https://fr.wikipedia.org/wiki/Administration_syst%C3%A8me" target="_blank">Administration Réseaux et Systèmes</a><br>
+      <img src="https://asenatusconsulto.org/wp-content/uploads/2019/04/Formation_elus_collectivites_reseaux_Sociaux_2-1080x675.jpg" alt="Image réseaux et systèmes" width="250">
+    </li><br>
+
+    <li>
+      <a href="https://fr.wikipedia.org/wiki/Cloud_computing" target="_blank">Cloud Computing</a><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUJ4bqlAjegT2Y4NKwCQDaUOHwXKfhv5VweA&s" alt="Image cloud computing" width="250">
+    </li><br>
+
+  </ul>
+
+  <!-- CASES À COCHER -->
+  <h2>3) Quelle spécialité t’intéresse ?</h2>
+  <form>
+    <label><input type="checkbox"> Cybersécurité</label><br>
+    <label><input type="checkbox"> Développement Web</label><br>
+    <label><input type="checkbox"> Intelligence Artificielle</label><br>
+    <label><input type="checkbox"> Data Science</label><br>
+    <label><input type="checkbox"> Réseaux & Systèmes</label><br>
+    <label><input type="checkbox"> Cloud Computing</label><br>
+    
+
+    <!-- ENTRÉES DE TEXTE -->
+    <h3>4) Tes informations</h3>
+
+    <label for="nom">Nom complet :</label><br>
+    <input type="text" id="nom" name="nom" placeholder="Ex : Marie Dupont"><br><br>
+
+    <label for="email">Adresse e-mail :</label><br>
+    <input type="email" id="email" name="email" placeholder="exemple@domaine.com"><br><br>
+
+    <label for="objectif">Pourquoi veux-tu apprendre l’informatique ?</label><br>
+    <input type="text" id="objectif" name="objectif" placeholder="Ex : Trouver un emploi, créer une application..."><br><br>
+
+    <label for="message">Message ou motivation :</label><br>
+    <textarea id="message" name="message" rows="4" cols="40" placeholder="Parle-nous de ton projet ou de ton intérêt pour ce domaine."></textarea><br><br>
+
+    <!-- BOUTONS -->
+    <button type="submit">Envoyer</button>
+    <button type="reset">Effacer</button>
+  </form>
+
+</body>
+</html>
+
+
